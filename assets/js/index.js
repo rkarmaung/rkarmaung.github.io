@@ -82,6 +82,5 @@ navContent.addEventListener("click", function(){
 
 var lesserThan700 = window.matchMedia("(max-width: 700px)");
   if (lesserThan700.matches){
-    alert("hey");
     burgerContainer.removeEventListener("click", myFunction);
   }
