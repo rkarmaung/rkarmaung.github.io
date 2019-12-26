@@ -422,7 +422,7 @@ background: linear-gradient(315deg, #ff0000, #ffc107);
 
 /*End - #3 Ecommerce - Project-3*/
 
-/* #2 Hotel Business - Project-3 start*/
+/* #2 Portfolio - Project-3 start*/
 
 .projectContainer2 {
   /*background: linear-gradient(315deg, #C12869, #5d02ff);*/
@@ -450,7 +450,7 @@ background: linear-gradient(315deg, #ff0000, #ffc107);
 }
 
 .project2PicContainer img {
-  width: 130%;
+  width: 100%;
 }
 
 /*End - #2 Hotel Business - Project-3*/
