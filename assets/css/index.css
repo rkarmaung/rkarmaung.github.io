@@ -351,7 +351,7 @@ nav {
   width: 100%;
 }
 
-.projectContainer3, .projectContainer2, .projectContainer1 {
+.projectContainer4, .projectContainer3, .projectContainer2, .projectContainer1 {
   width: 330px;
   padding: 15px;
   border-radius: 5px;
@@ -365,12 +365,12 @@ background: linear-gradient(315deg, #e91e63, #5do2ff);
 background: linear-gradient(315deg, #ff0000, #ffc107);
 */
 
-.projectContainer3>footer, .projectContainer2>footer, .projectContainer1>footer {
+.projectContainer4>footer , .projectContainer3>footer, .projectContainer2>footer, .projectContainer1>footer {
   display: flex;
   margin-bottom: 30px;
 }
 
-.projectContainer3>footer div, .projectContainer2>footer div, .projectContainer1>footer div {
+.projectContainer4>footer div, .projectContainer3>footer div, .projectContainer2>footer div, .projectContainer1>footer div {
   margin-right: 10px;
   border: 1px solid white;
   border-radius: 5px;
@@ -387,15 +387,7 @@ background: linear-gradient(315deg, #ff0000, #ffc107);
   overflow: hidden;
 }
 
-/* #3 Ecommerce - Project-3 start*/
 
-.projectContainer3 {
-  /*background: linear-gradient(315deg, #254117, #00bcd4);*/
-  background: radial-gradient(#000, #333);
-  position: relative;
-}
-
-/*Edges Light - Project-3 ecommerce*/
 
 .projectContainer3:before {
   content: '';
@@ -493,6 +485,51 @@ background: linear-gradient(315deg, #ff0000, #ffc107);
 }
 
 /*End - #1 Business Website - Project-3*/
+
+/* #4 Hotel Website - Project-4 start*/
+
+.projectContainer4 {
+  /*background: linear-gradient(315deg, #254117, #00bcd4);*/
+  background: radial-gradient(#000, #333);
+  position: relative;
+}
+
+/*Edges Light - Project-4 Hotel Website*/
+
+.projectContainer4:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background: linear-gradient(315deg, #ff0000, #ffc107);
+  z-index: -1;
+  transform: skew(2deg, 2deg);
+}
+
+.project4PicContainer {
+  background: linear-gradient(315deg, #ff0000, #ffc107);
+  transform: perspective(600px) rotateY(-90deg);
+  transform-origin: top right;
+  transition: all .5s ease;
+}
+
+.project4PicContainer img {
+  width: 100%;
+}
+
+/*End - #4 Hotel Website - Project-4*/
+
+/* #3 Ecommerce - Project-3 start*/
+
+.projectContainer3 {
+  /*background: linear-gradient(315deg, #254117, #00bcd4);*/
+  background: radial-gradient(#000, #333);
+  position: relative;
+}
+
+/*Edges Light - Project-3 ecommerce*/
 
 /* Section 4 - Projects (index.html) - start */
 
