@@ -284,7 +284,6 @@ nav {
 #about {
   padding: 20px;
   width: 100%;
-  max-width: 800px;
 }
 
 #about>header {
@@ -350,8 +349,6 @@ nav {
 
 .sec4_myProjectsContainer {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .projectContainer4, .projectContainer3, .projectContainer2, .projectContainer1 {
