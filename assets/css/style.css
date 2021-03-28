@@ -67,7 +67,7 @@ a{
         padding: 10px 20px;
     }
     .profileHeader{
-        margin-top: 20px;
+        margin-top: 20px!important;
     }
         .profilepic{
             width: 100px;
