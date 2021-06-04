@@ -13,10 +13,12 @@
     align-items: center;
     text-align: center;
 }
-a{
+a,
+span{
     color: rgb(194, 165, 0)!important;
 }
-    a:hover{
+    a:hover,
+    span:hover{
         color: gold;
         text-decoration: none;
     }
